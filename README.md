@@ -1,6 +1,8 @@
 # Xtrainer Toolkit
 
 Dobot Xtrainer 双臂机械臂控制工具。在不依赖 ROS 的情况下，直接通过 TCP/Dashboard 协议（端口 29999）控制机械臂的上电、解锁、清除错误、示教拖拽等操作。
+> [!TIP]
+> 同样适用于Nova2等支持越疆TCP_IP远程控制接口v3的机械臂
 
 ## 功能
 

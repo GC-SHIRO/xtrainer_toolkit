@@ -540,7 +540,7 @@ fn render_ui(frame: &mut Frame, state: &Arc<Mutex<AppState>>) {
             span_key("4"), Span::raw("示教  "),
             span_key("5"), Span::raw("停教  "),
             span_key("6"), Span::raw("锁定  "),
-            Span::raw(" 左臂(按住Shift) "),
+            Span::raw(" 右臂(按住Shift) "),
             span_key("!"), Span::raw("@#$%^"),
         ]),
         Line::from(vec![
