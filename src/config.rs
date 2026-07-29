@@ -119,5 +119,5 @@ pub fn load_config(path: Option<&str>) -> Result<Config> {
 }
 
 fn default_config_path() -> Option<std::path::PathBuf> {
-    dirs::config_dir().map(|d| d.join("xtctl").join("config.json"))
+    dirs::config_dir().map(|d| d.join("xtk").join("config.json"))
 }

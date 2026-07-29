@@ -68,7 +68,7 @@ impl AppState {
                 error_info: String::new(),
                 last_query: String::new(),
             },
-            log: vec!["[启动] XTCTL TUI 模式".into()],
+            log: vec!["[启动] Xtrainer Toolkit TUI 模式".into()],
             should_quit: false,
             busy: false,
         }
@@ -511,7 +511,7 @@ fn render_ui(frame: &mut Frame, state: &Arc<Mutex<AppState>>) {
     let title = Paragraph::new(
         Text::from(vec![
             Line::from(Span::styled(
-                " XTCTL - Dobot Xtrainer 控制台",
+                " XTK - Xtrainer Toolkit",
                 Style::default().fg(Color::Cyan).add_modifier(Modifier::BOLD),
             )),
             Line::from(Span::styled(

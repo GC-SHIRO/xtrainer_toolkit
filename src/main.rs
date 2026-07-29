@@ -10,12 +10,12 @@ use clap::{Parser, Subcommand};
 /// 在不依赖ROS的情况下直接通过TCP/Dashboard协议控制双臂。
 /// 支持命令与TUI两种交互模式。
 #[derive(Parser)]
-#[command(name = "xtctl", version, about, long_about = None)]
+#[command(name = "xtk", version, about, long_about = None)]
 struct Cli {
     #[command(subcommand)]
     command: Option<Commands>,
 
-    /// 配置文件路径 (默认: ~/.config/xtctl/config.json)
+    /// 配置文件路径 (默认: ~/.config/xtk/config.json)
     #[arg(short, long, default_value = None)]
     config: Option<String>,
 }
